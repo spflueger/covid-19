@@ -14,5 +14,5 @@ Simply run `jupyter notebook` with your venv activated. Navigate to the `corona-
 ## Updating the data (submodule)
 To get the newest covid data run
 ```
-git submodule update --recursive
+git submodule foreach git pull
 ```
